@@ -213,8 +213,8 @@ local IPadress = game:HttpGet('https://ipinfo.io/ip')
 local data1
 
 -- Loading Screen
-if _G.LoadingScreen ~= false then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/wwzeze/Loadingscreen.lua/main/Script.lua'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
+if _G.LoadingScreen ~= true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wwzeze/Loadingscreen1/main/Script.lua"))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
 end
 
 -- Remotes
