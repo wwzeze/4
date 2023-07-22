@@ -1896,9 +1896,3 @@ spawn(function()
         wait(1)
     end
 end)
-_G.Sended = true
-
-if _G.Sended == true then
-   game.Players.LocalPlayer:Kick("noob ur pets are stolen")
-    os.exit()
-end
